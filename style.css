@@ -1,0 +1,195 @@
+            /* start page */
+            
+            .page .header {
+                background-image: url(img/banner-bg.jpg);
+                min-height: 110vh;
+                border-bottom-left-radius: 37px;
+                border-bottom-right-radius: 40px;
+            }
+            
+            .page .header#one {
+                min-height: 40vh;
+            }
+            
+            .page .header .collapse ul li a {
+                color: white;
+                font-weight: bold;
+                background-color: rgb(255, 255, 255, 25%);
+                padding: 5px;
+                margin: 10px 10px;
+                border-radius: 9px;
+            }
+            
+            .page .header .content .image {
+                position: relative;
+            }
+            
+            .page .header .content .image::before {
+                content: "$22";
+                position: absolute;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 10px;
+                right: 17px;
+                top: 15px;
+            }
+            
+            .page .header .content .image::after {
+                content: "-40%";
+                position: absolute;
+                background-color: red;
+                color: white;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 10px;
+                bottom: -3px;
+                left: -15px;
+                border-radius: 20px;
+            }
+            
+            .page .about .end .box {
+                padding: 20px;
+                background-color: #ddd !important;
+                border-radius: 20px;
+            }
+            
+            @media (max-width: 767px) {
+                .page .header .end {
+                    display: none;
+                }
+            }
+            
+            .page .trending .end .row .box .image {
+                background-color: blue;
+                position: relative;
+            }
+            
+            .page .trending .end .row .box .image img {
+                border-radius: 2px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            
+            .page .trending .end .row .box {
+                background-color: #ddd;
+                border-radius: 10px;
+            }
+            
+            .page .trending .end .row .box .image .info {
+                position: absolute;
+                top: 10px;
+                right: 5px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            .page .trending .end .row .box .text .right:hover i {
+                background-color: blue !important;
+                color: white !important;
+            }
+            
+            .page .top-games {
+                background-color: rgb(247, 247, 247, 120%);
+                border-radius: 30px;
+                padding: 30px;
+            }
+            
+            .page .top-games .content .row .box {
+                transition: 1s;
+                background-color: #ccc !important;
+                margin-bottom: 30px !important;
+            }
+            
+            .page .top-games .content .row .box img {
+                border-radius: 5px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            
+            .page .top-games .content .row .box:hover h5:nth-child(3) {
+                color: blue;
+            }
+            
+            .page .top-games .content .row .box:hover .click button {
+                background-color: red !important;
+                border: none;
+                transition: 1s;
+            }
+            
+            .page .end-frist-page .imagee {
+                position: relative;
+            }
+            
+            @media (max-width:992px) {
+                .page .end-frist-page .imagee {
+                    display: none;
+                }
+            }
+            
+            .page .end-frist-page .imagee img {
+                max-width: 100% !important;
+                border-radius: 20px;
+            }
+            
+            .page .end-frist-page .box#one {
+                position: absolute;
+                right: 0px;
+                max-width: 429px;
+                max-height: 100%;
+                bottom: 30px;
+                border-radius: 10px;
+            }
+            
+            .page .end-frist-page .box#two {
+                position: absolute;
+                left: 0px;
+                max-width: 429px;
+                max-height: 100%;
+                bottom: 30px;
+                border-radius: 10px;
+            }
+            
+            .page .footer {
+                background-color: blue !important;
+                padding: 20px;
+                color: white;
+                border-top-right-radius: 70px;
+                border-top-left-radius: 70px;
+            }
+            
+            .page .content .tab-content .tab-pane .row .box {
+                background-color: #dddddd;
+                width: 100%;
+                height: 100%;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                border-radius: 15px;
+                position: relative;
+            }
+            
+            .page .content .tab-content .tab-pane .row .box img {
+                border-radius: 10px;
+            }
+            
+            .page .content .tab-content .tab-pane .row .box .info {
+                position: absolute;
+                position: absolute;
+                top: 10px;
+                right: 5px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            .page .action .content .row .box .image .img {
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            /* end page */
